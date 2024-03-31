@@ -4,6 +4,10 @@
     "routes": [
         {
             "src": "/(.*)",
+            "dest": "listado/html_css"
+        },
+        {
+            "src": "/(.*)",
             "dest": "listado/html_css/index.html"
         }
     ],
