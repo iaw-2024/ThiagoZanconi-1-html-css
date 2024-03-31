@@ -2,10 +2,6 @@
     "version": 2,
     "routes": [
         {
-            "src": "/build/(.*)",
-            "dest": "/build/$1"
-        },
-        {
             "src": "/(.*)",
             "dest": "listado/html_css/index.html"
         }
