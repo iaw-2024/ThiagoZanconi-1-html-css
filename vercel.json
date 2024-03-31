@@ -4,9 +4,13 @@
         {
             "src": "/(.*)",
             "dest": "listado/html_css/index.html"
+        },
+        {
+            "src": "styles.css",
+            "dest": "listado/html_css/styles.css"
         }
     ],
     "rewrites": [
-        { "source": "styles.css", "destination": "/listado/html_css/styles.css" }
+        { "source": "styles.css", "destination": "listado/html_css/styles.css" }
       ]
   }
