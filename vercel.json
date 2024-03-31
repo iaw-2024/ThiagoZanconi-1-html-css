@@ -1,5 +1,6 @@
 {
     "version": 2,
+    "outputDirectory": "listado/html_css/index.html",
     "builds": [
       {
         "src": "listado/html_css/index.html",
