@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "listado/html_css/index.html",
+        "use": "@vercel/static"
+      }
+    ]
+  }
