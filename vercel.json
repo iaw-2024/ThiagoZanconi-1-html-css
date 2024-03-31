@@ -7,6 +7,6 @@
         }
     ],
     "rewrites": [
-        { "source": "/styles.css", "destination": "listado/html_css/styles.css" }
+        { "source": "/styles.css", "destination": "/listado/html_css/styles.css" }
       ]
   }
