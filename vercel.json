@@ -4,14 +4,6 @@
         {
             "src": "/(.*)",
             "dest": "listado/html_css/index.html"
-        },
-        {
-            "src": "/build/(.*)",
-            "dest": "/build/$1"
-        },
-        {
-            "src": "styles.css",
-            "dest": "listado/html_css/styles.css"
         }
     ],
     "rewrites": [
