@@ -1,11 +1,5 @@
 {
     "version": 2,
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "listado/html_css/index.html"
-        }
-    ],
     "rewrites": [
         { "source": "styles.css", "destination": "listado/html_css/styles.css" }
       ]
