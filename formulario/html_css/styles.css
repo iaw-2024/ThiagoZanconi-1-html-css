@@ -12,36 +12,35 @@ body {
 }
 
 .wrapper {
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: auto;
+    margin: auto;
+    padding: 5px;
+    max-width: 50%;
+    min-width: 30%;
+    justify-content: space-between;
 }
 
-.container1 {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    float: left;
+.wrapper2{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    justify-content: space-between;
 }
 
-/* Estilo de la lista */
-.list {
-    list-style: none;
-    padding: 0;
-}
-
-.list li {
-    background-color: #f4f4f4;
-    border: 1px solid #ddd;
-    margin-bottom: 10px;
-    padding: 10px;
-    width: 300px;
-}
-
-/* Estilo responsive */
-@media only screen and (max-width: 400px) {
-    .container {
-        padding: 10px;
-    }
-}
+.btn {
+    background-color: #007bff; /* Color azul */
+    color: #fff; /* Texto blanco */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Color azul oscuro al pasar el ratón */
+  }
+  
+  .btn:active {
+    background-color: #004080; /* Color azul más oscuro cuando se hace clic */
+  }
