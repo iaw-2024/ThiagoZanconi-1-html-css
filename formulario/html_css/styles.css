@@ -16,6 +16,11 @@ body {
     margin-bottom: 25px;
 }
 
+.a{
+  display: inline-flex; 
+  justify-items: center; 
+}
+
 .header{
     max-width: fit-content;
     margin-left: 25%;
@@ -25,7 +30,6 @@ body {
     padding: 10px;
     background-color: #007bff;
     border-radius: 10px;
-  
 }
 
 .inputtext{
@@ -53,7 +57,7 @@ input[type=submit]:hover {
   background-color: #0056b3;
 }
 
-div {
+.wrapper {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
