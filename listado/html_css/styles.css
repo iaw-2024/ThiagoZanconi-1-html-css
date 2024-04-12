@@ -1,0 +1,102 @@
+/* Estilo base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.flexwrapper{
+    display: flex;
+    background-color: #A8A8A8;
+}
+  
+.home{
+      margin-left: 13%;
+      margin-top: 25px;
+      margin-bottom: 25px;
+}
+
+.a{
+    display: inline-flex; 
+    justify-items: center; 
+}
+  
+.header{
+      max-width: fit-content;
+      margin-left: 25%;
+      margin-right: auto;
+      border: 2px solid #007bff;
+      color: #ffffff;
+      padding: 10px;
+      background-color: #007bff;
+      border-radius: 10px;
+}
+
+.wrapper {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper2 {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    width: 100%;
+}
+
+.textcenter{
+    text-align: center;
+}
+
+.container {
+    display: flex; /* Activa el modelo de caja flexible */
+    justify-content: space-between;
+    width: max-content;
+}
+
+/* Estilo de la lista */
+.list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    min-width: 0;
+}
+
+.list li {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 100%;
+}
+
+.btn {
+    background-color: #007bff; /* Color azul */
+    color: #fff; /* Texto blanco */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    place-items: center;
+  }
+  
+.btn:hover {
+    background-color: #0056b3; /* Color azul oscuro al pasar el ratón */
+}
+  
+.btn:active {
+    background-color: #004080; /* Color azul más oscuro cuando se hace clic */
+}
+
+/* Estilo responsive */
+@media only screen and (max-width: 400px) {
+    .container {
+        padding: 10px;
+    }
+}

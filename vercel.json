@@ -1,0 +1,6 @@
+{
+    "version": 2,
+    "rewrites": [
+        { "source": "styles.css", "destination": "listado/html_css/styles.css" }
+      ]
+  }
